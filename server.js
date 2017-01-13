@@ -7,3 +7,4 @@ app.get('/',function(req,res){
     res.status(404).send('Page introuvable !');
 }).listen(PORT);
 console.log('Running on http://104.46.32.90:' +PORT);
+console.log('V1.0');
