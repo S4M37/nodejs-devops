@@ -13,7 +13,7 @@ RUN npm install
 COPY . /usr/src/app
 
 #APP BINDING PORT
-EXPOSE 8080
+EXPOSE 8001
 
 #START THE APP
 CMD [ "npm", "start" ]
